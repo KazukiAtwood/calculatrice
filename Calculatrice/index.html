@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Calculatrice</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<header>
+    <nav class="navbar">
+        <div class="logo">
+            <a href="#">LOGO</a>
+        </div>
+        <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Tips</a></li>
+            <li><a href="#">Calculet</a></li>
+        </ul>
+        <div class="login">
+            <button>Login</button>
+        </div>
+    </nav>
+</header>
+
+<body>
+  <div class="block">
+      <div class="container">
+        <div class="left">
+            <div class="input-with-image">
+                <label>Montant</label>
+                <img src="dollar.png" alt="Image">
+                <input type="text">
+            </div>
+            <div class="button-group">
+              <label>Pourcentage des tips</label>
+                <div class="button-row">
+                    <button class="square-btn" id="button1">5%</button>
+                    <button class="square-btn" id="button2">10%</button>
+                    <button class="square-btn" id="button3">15%</button>
+                </div>
+                <div class="button-row">
+                    <button class="square-btn" id="button4">25%</button>
+                    <button class="square-btn" id="button5">50%</button>
+                    <button class="square-btn" id="button6">Custom</button>
+                </div>
+            </div>
+            <div class="input-with-image">
+                <label>Nombre de personne</label>
+                <img src="person.png" alt="Image">
+                <input type="text">
+            </div>
+        </div>
+        <div class="right">
+            <p>Tips par personne : 2.5$</p>
+            <p>Total par personne : 52.5$</p>
+            <button>Reset</button>
+        </div>
+      </div>
+  </div>
+    </body>
+</html>
